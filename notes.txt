@@ -1,0 +1,33 @@
+nested ternary operator
+-----------------------
+syntax:
+(condition)? exp1:((condition)?exp2 :(condition)?exp3:exp4);
+-------------------------------------------------------------
+
+what are the diff between JVM, JRE, JDK
+---------------------------------------
+JVM - responsible for executing java byte code
+      provides platform independence(wora).
+      performs JIT(Just in time) compilation for faster execution
+      Handles memory management and garbage collection
+      memory area are like heap, stack, method area, pc registers, native method stacks.
+
+JRE - JVM+libraries set
+-----------------------
+provides libraries, classes, and other files need to run java programs.
+
+contains JVM+ core libraries.
+doesn't include compilers or tools for development
+
+JDK ==> JVM+JRE+ developer tools
+--------------------------------
+include everything in JRE, plus development tools
+.java(compiler)
+jar(archiver)
+Javadoc (documentation generator)
+used by developer to create and compile and debug java application.
+
+if you only want to run a java application ==> JRE
+you want to develop and run java programs  ==>JDK
+if you want to explain or visualize execution ==JVM
+
